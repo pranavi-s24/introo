@@ -77,4 +77,7 @@ button {
     .column-2 {
         width: 45%;
     }
+    button {
+        width: 100px;
+    }
 }
