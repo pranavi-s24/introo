@@ -4,25 +4,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="background-light justify-center">
+        <form action="#" method="POST">
         <div class="container background-none padding-2 margin-bottom">
             <h3 class="padding-1">Personal Details</h3>
             <div class="row-flex">
                 <div class="column-1 padding-1">
-                    <label for="first-name" class="padding-2">First Name</label>
+                    <label for="first-name" class="padding-2">First Name <span class="required">*</span></label>
                     <input type="text" placeholder="First Name" for="first-name" class="padding-2">
                 </div>
                 <div class="column-1 padding-1">
-                    <label for="lat-name" class="padding-2">Last Name</label>
+                    <label for="lat-name" class="padding-2">Last Name <span class="required">*</span></label>
                     <input type="text" placeholder="Last Name" for="last-name" class="padding-2">
                 </div>
             </div>
             <div class="row-flex">
                 <div class="column-1 padding-1">
-                    <label for="email">Email</label>
+                    <label for="email">Email <span class="required">*</span></label>
                     <input type="email" placeholder="Email" for="email" class="padding-2">
                 </div>
                 <div class="column-1 padding-1">
-                    <label for="phone">Mobile Number</label>
+                    <label for="phone">Mobile Number <span class="required">*</span></label>
                     <input type="text" placeholder="Mobile Number" for="phone" class="padding-2">
                 </div>
             </div>
@@ -32,7 +33,7 @@
             <h3 class="padding-1">Academic Details</h3>
             <div class="row-flex">
                 <div class="padding-1 column-2">
-                    <label for="college-name" class="padding-2">College Name</label>
+                    <label for="college-name" class="padding-2">College Name <span class="required">*</span></label>
                 </div>
                 <div class="padding-1 column-2">
                     <input type="text" for="college-name" placeholder="College Name" class="padding-2">
@@ -40,7 +41,7 @@
             </div>
             <div class="row-flex">
                 <div class="padding-1 column-2">
-                    <label for="dept-name" class="padding-2">Department Name</label>
+                    <label for="dept-name" class="padding-2">Department Name <span class="required">*</span></label>
                 </div>
                 <div class="padding-1 column-2">
                     <input type="text" for="dept-name" placeholder="Department Name" class="padding-2">
@@ -68,7 +69,7 @@
             <h3 class="padding-1">Other Details</h3>
             <div class="row-flex1">
                     <div class="column-3 padding-1">
-                        <label for="area-of-interest" class="padding-2">Area of Interest</label> 
+                        <label for="area-of-interest" class="padding-2">Area of Interest <span class="required">*</span></label> 
                     </div>
                     <div class="column-3 padding-1">
                         <input type="text" for="area-of-interest" placeholder="area-of-interest" class="padding-2">
@@ -101,5 +102,6 @@
                 <button type="button">Save</button> 
             </div>
         </div>
+        </form>
     </body>
 </html>
