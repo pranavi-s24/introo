@@ -34,11 +34,14 @@
     padding: 1%;
 }
 button {
-    background-color: rgb(4, 4, 100);
+    background-color: rgb(66, 117, 200);
+    font-size:14px;
+    font-family: Inter;
     color: white;
     margin: 2px;
-    padding: 1%;
-    width: 150px;
+    padding: 3%;
+    width: 200px;
+    border: none;
 }
 .text-right {
     float: right;
@@ -50,11 +53,6 @@ label,div {
 }
 h3 {
     font-family: PlayfairDisplay;
-}
-button { 
-    font-family: Inter;
-    width:200px;
-    font-size:14px;
 }
 footer {
     padding-right: 3%;
