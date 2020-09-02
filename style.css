@@ -56,6 +56,9 @@ button {
     width:200px;
     font-size:14px;
 }
+footer {
+    padding-right: 3%;
+}
 .required {
     color: red;
 }
