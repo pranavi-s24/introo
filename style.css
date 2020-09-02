@@ -37,11 +37,15 @@ button {
     background-color: rgb(66, 117, 200);
     font-size:14px;
     font-family: Inter;
+    cursor: pointer;
     color: white;
     margin: 2px;
     padding: 3%;
     width: 200px;
     border: none;
+}
+button:hover {
+    background-color: rgb(39, 92, 177);
 }
 .text-right {
     float: right;
