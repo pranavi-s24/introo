@@ -8,6 +8,8 @@
 }
 .row-flex {
     display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .container {
     width: 90%;
