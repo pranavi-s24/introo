@@ -80,7 +80,7 @@ footer {
 }
 
 @media screen and (max-width:500px) {
-    .col-w-20,.col-w-30,.col-w-60,.col-w-35 ,.col-w-50{
+    .col-sm{
         width: 100%;
     }
     .row-flex {
