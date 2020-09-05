@@ -16,9 +16,6 @@
 .mb-2 {
     margin-bottom: 2%;
 }
-.m-1 {
-    margin: 1%;
-}
 .col {
     display: flex;
     flex-direction: column;
@@ -88,6 +85,9 @@ footer {
     }
     .row-flex {
         flex-direction: column;
+    }
+    .mt-10px {
+        margin-top: 10px;
     }
     button {
         width: 100px;
