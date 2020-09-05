@@ -8,8 +8,6 @@
 }
 .row-flex {
     display: flex;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 .container {
     width: 90%;
@@ -82,7 +80,7 @@ footer {
 }
 
 @media screen and (max-width:500px) {
-    .container,.col-w-20,.col-w-30,.col-w-60,.col-w-35 ,.col-w-50{
+    .col-w-20,.col-w-30,.col-w-60,.col-w-35 ,.col-w-50{
         width: 100%;
     }
     .row-flex {
