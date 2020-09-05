@@ -8,7 +8,6 @@
 }
 .row-flex {
     display: flex;
-    flex-grow: 3;
 }
 .container {
     width: 90%;
@@ -16,6 +15,9 @@
 }
 .mb-2 {
     margin-bottom: 2%;
+}
+.m-1 {
+    margin: 1%;
 }
 .col {
     display: flex;
