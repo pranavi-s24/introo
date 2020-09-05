@@ -60,10 +60,6 @@ button {
 button:hover {
     background-color: rgb(39, 92, 177);
 }
-.text-right {
-    justify-content: end;
-    margin-left: auto;
-}
 h3 {
     font-family: PlayfairDisplay;
     font-size: 18px;
